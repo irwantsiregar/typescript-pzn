@@ -1,0 +1,34 @@
+- Pengenalan TypeScript
+- Membuat Project
+- Setup TypeScript Project
+- Say Hello Function
+- Kompilasi TypeScript
+- Tipe Data Primitif
+- Babel TypeScript
+- Tipe Data Array
+- Tipe Data Any
+- Union Type
+- Type Alias
+- Object Type
+- Optional Properties
+- Enum
+- Null dan Undefined
+- Interface
+- Function Interface
+- Indexable Interface
+- Extending Interface
+- Function di Interface
+- Intersection Types
+- Type Assertions
+- Function
+- Function Parameter
+- Function Overloading
+- Function Sebagai Parameter
+- If Statement
+- Ternary Operator
+- Switch Statement
+- For Loop
+- While Loop
+- Do While Loop
+- Break dan Continue
+- JavaScript Feature

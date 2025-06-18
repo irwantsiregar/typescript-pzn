@@ -1,4 +1,3 @@
-`typescript-pzn`
+`typescript`
 
-# Learn Typescript
-
+# Learn Typescript Basic
