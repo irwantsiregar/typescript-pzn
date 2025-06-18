@@ -1,0 +1,8 @@
+[ Say Hello Function ]
+
+- Sebelum mulai belajar, kita akan coba buat say hello function dengan file TypeScript
+
+- Untuk menjalankan test, ketikan perintah:
+    $ npm run test
+        OR
+    $ npx jest
