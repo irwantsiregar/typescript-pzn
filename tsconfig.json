@@ -1,6 +1,6 @@
 {
-  "include": ["src/**/*"], // Config for exclude folders & files was typescript compile
-  "exclude": ["tests/**/*"], // Config for include folders & files was typescript compile
+  "include": ["src/**/*", "tests/**/*"], // Config for exclude folders & files was typescript compile
+  // "exclude": ["tests/**/*"], // Config for include folders & files was typescript compile
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
