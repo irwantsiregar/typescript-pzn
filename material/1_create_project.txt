@@ -1,0 +1,43 @@
+[ Membuat Project ]
+
+- Buat folder belajar-typescript-dasar
+- npm init
+- Buka package.json, dan tambah type module
+
+example:
+$ mkdir learn-typescript-basic
+$ cd learn-typescript-basic
+$ git init
+$ npm init -y
+
+Next, Added typescript module to file package.json ("type": "module")
+
+# Menambah Library Jest untuk Unit Test
+- npm install --save-dev jest @types/jest
+- https://www.npmjs.com/package/jest 
+
+# Menambah Library Babel
+- npm install --save-dev babel-jest @babel/preset-env
+- https://babeljs.io/setup#installation 
+
+
+Information: 
+The after install babel-jest:
+1. On docs click a tab 'Test Frawework' and select 'Jest'. Added the following code to file package.json:
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  }
+}
+
+2. Create babel.config.json configuration file.
+In order to enable the preset you have to define it in your babel.config.json file, like this:
+{
+  "presets": ["@babel/preset-env"]
+}
+

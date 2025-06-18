@@ -1,0 +1,36 @@
+{
+  "name": "typescript-pzn-2025",
+  "version": "1.0.0",
+  "description": "`typescript`",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irwantsiregar/typescript-pzn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irwantsiregar/typescript-pzn/issues"
+  },
+  "homepage": "https://github.com/irwantsiregar/typescript-pzn#readme",
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-typescript": "^7.27.1",
+    "@jest/globals": "^30.0.0",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.0.0",
+    "jest": "^30.0.0",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,31 @@
+[ Setup TypeScript Project ]
+
+# Menambah TypeScript
+- npm install --save-dev typescript
+- https://www.npmjs.com/package/typescript 
+
+# Setup TypeScript Project
+- npx tsc --init
+- Semua konfigurasi akan dibuat di file tsconfig.json
+- Ubah “module” dari “commonjs” menjadi “ES6”
+
+# Setup TypeScript untuk Jest
+Docs: https://jestjs.io/docs/getting-started#using-typescript 
+- npm install --save-dev @babel/preset-typescript
+- npm install --save-dev ts-jest
+- npm install --save-dev @jest/globals
+- npm install --save-dev @types/jest
+
+Info:
+Then add @babel/preset-typescript to the list of presets in your babel.config.js:
+/*
+    module.exports = {
+    presets: [
+        ['@babel/preset-env', {targets: {node: 'current'}}],
+        '@babel/preset-typescript',
+    ],
+    };
+*/
+
+
+
