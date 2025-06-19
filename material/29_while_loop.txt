@@ -1,3 +1,9 @@
 [ While Loop ]
-
 - TypeScript juga mendukung perulangan While Loop seperti di JavaScript
+
+[ Do While ]
+TypeScript juga mendukung perulangan menggunakan Do While Loop
+
+[ Break dan Continue ]
+Seperti di JavaScript, pada perulangan While atau Do While, kita sering menggunakan kata kunci break dan continue
+Hal ini juga bisa dilakukan di TypeScript
