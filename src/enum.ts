@@ -9,3 +9,4 @@ export type Custormer = {
   name: string;
   type: CustomerType;
 };
+
