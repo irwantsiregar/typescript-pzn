@@ -4,6 +4,7 @@
   "description": "`typescript`",
   "main": "index.js",
   "scripts": {
+    "tsc": "npx tsc --watch",
     "test": "jest"
   },
   "jest": {

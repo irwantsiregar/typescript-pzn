@@ -1,11 +1,16 @@
 describe("Data Type", () => {
   it("should must be declare", () => {
-    const name: string = "Irwant";
-    const balance: number = 1000000;
-    const isVip: boolean = true;
+    let name: string = "Irwant";
+    let balance: number = 1000000;
+    let isVip: boolean = true;
 
     console.info(name);
     console.info(balance);
     console.info(isVip);
+
+    // This error when run typescript compile, but success when run test with jest
+    name = 1; // error
+    balance = "1000000"; // error
+    isVip = true; // error
   });
 });
