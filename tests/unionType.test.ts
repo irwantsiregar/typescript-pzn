@@ -22,7 +22,7 @@ describe("Union Type", () => {
       }
     }
 
-    expect(process("Irwan")).toBe("Irwan");
+    expect(process("Irwan")).toBe("IRWAN");
     expect(process(100)).toBe(102);
     expect(process(true)).toBe(false);
   });

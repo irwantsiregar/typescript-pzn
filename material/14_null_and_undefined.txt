@@ -1,0 +1,8 @@
+[ Null dan Undefined ]
+
+- Saat kita menggunakan ? pada variabel atau parameter, secara otomatis kita bisa mengirim data undefined
+- Tapi kadang, kadang, ada kasus kita juga ingin mengirim data null, pada kasus ini kita juga bisa menggunakan tipe data null
+
+# Readonly Properties
+- Properties dapat kita jadikan readonly, yang artinya tidak bisa diubah lagi
+- Kita bisa menggunakan kata kunci readonly pada attribute tersebut
