@@ -7,7 +7,7 @@ describe("Array", () => {
     console.info(values);
   });
 
-  describe("should support readonly array", () => {
+  it("should support readonly array", () => {
     const hobbies: ReadonlyArray<string> = ["Membaca", "Menulis"];
 
     console.info(hobbies);
@@ -17,7 +17,7 @@ describe("Array", () => {
     // hobbies[0] = "Main Game"; // Error type: Can't re-assign value in array
   });
 
-  describe("should support tuple", () => {
+  it("should support tuple", () => {
     // Tuple: total values is fixed
     const person: readonly [string, string, number] = [
       "Irwanto",

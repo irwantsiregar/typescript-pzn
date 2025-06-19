@@ -1,3 +1,3 @@
-export default function sayHello(name: String): String {
+export default function sayHello(name: string): string {
   return "Hello " + name;
 }

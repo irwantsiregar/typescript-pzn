@@ -1,6 +1,10 @@
-[  Data Type: Any]
+[  Union Type]
+- Seperti yang sudah kita tahu, JavaScript sebenarnya bisa menyimpan berbagai jenis tipe data di variabel yang sama
+- Namun di TypeScript, hal itu dilarang karena praktek yang buruk
+- Pada kasus jika kita ingin membuat variabel yang bisa berubah bentuk tipe data, kita bisa memberi tahunya menggunakan union type
+- Secara otomatis TypeScript akan membolehkan kita mengubah tipe data, namun sesuai yang sudah ditentukan di union type nya
 
-- Saat kita menggunakan TypeScript, setiap jenis data idealnya ada deklarasi datanya
-- Contoh saat kita ingin menggunakan tipe data JavaScript Object, idealnya harusnya ada ketentuan attribute yang dimilikinya, sedangkan di JavaScript hal itu tidak diwajibkan
-- Pada kasus kita memang ingin membuat tipe data yang bebas seperti di JavaScript, kita bisa gunakan tipe data Any
-- Tipe data Any tersebut menjadikan TypeScript tidak melakukan pengecekan apapun terhadap akses terhadap data tersebut
+# Menggunakan Union Type
+
+- Saat kita membuat Union Type, kita perlu berhati-hati ketika memanggil method terhadap variabel tersebut
+- Hal ini karena tipe datanya bisa berubah, oleh karena itu ada baiknya kita melakukan pengecekan tipe data terlebih dahulu menggunakan typeof
