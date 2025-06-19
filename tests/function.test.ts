@@ -76,5 +76,19 @@ describe("Function", () => {
     }
 
     expect(sayaHello("Irwan", toUpper)).toBe("Hello IRWAN");
+
+    // Anonymous function
+    expect(
+      sayaHello("Irwan", function (name: string): string {
+        return name.toUpperCase();
+      })
+    ).toBe("Hello IRWAN");
+
+    // Arrow function
+    expect(
+      sayaHello("Irwan", (name: string): string => {
+        return name.toUpperCase();
+      })
+    ).toBe("Hello IRWAN");
   });
 });
