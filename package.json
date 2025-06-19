@@ -1,0 +1,21 @@
+{
+  "name": "oop-ts",
+  "version": "1.0.0",
+  "description": "learn-oop-typescript",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irwantsiregar/typescript-pzn.git"
+  },
+  "author": "Irwant Siregar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irwantsiregar/typescript-pzn/issues"
+  },
+  "homepage": "https://github.com/irwantsiregar/typescript-pzn#readme"
+}

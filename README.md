@@ -1,4 +1,3 @@
 `typescript-pzn`
 
-# Learn Typescript
-
+# Typescript: Object Oriented Programming
