@@ -12,7 +12,7 @@ describe("Interface", () => {
     console.info(seller);
   });
 
-  it("should support with readonly on properties", () => {
+  it("should support: readonly property on interface", () => {
     const seller: Seller = {
       id: 1,
       name: "Toko ABC",
@@ -21,8 +21,21 @@ describe("Interface", () => {
     };
 
     seller.name = "Toko Budi";
-    // seller.nib = "324565443"; // Error: Cant update value because it readonly property
+    // seller.nib = "324565443"; // Error: Can't update value because it readonly property
 
     console.info(seller);
+  });
+
+  it("should support: function interface", () => {
+    interface AddFunction {
+      (value1: number, value2: number): number;
+    }
+
+    const add: AddFunction = (value1: number, value2: number): number => {
+      return value1 + value2;
+    };
+
+    expect(add(2, 4)).toBe(6);
+    expect(add(4, 4)).toBe(8);
   });
 });
