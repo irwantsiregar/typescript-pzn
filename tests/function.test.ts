@@ -22,7 +22,7 @@ describe("Function", () => {
     expect(sayHello("Irwan")).toBe("Hello Irwan");
   });
 
-  it("should support rest parameter", () => {
+  it("should support function with rest parameters", () => {
     function sum(...values: number[]): number {
       let total = 0;
 
@@ -36,7 +36,7 @@ describe("Function", () => {
     expect(sum(1, 2, 3, 4, 5)).toBe(15);
   });
 
-  it("should support optional parameter", () => {
+  it("should support function with optional parameter", () => {
     function sayaHello(firstName: string, lastName?: string): string {
       if (lastName) {
         return `Hello ${firstName} ${lastName}`;
@@ -46,6 +46,23 @@ describe("Function", () => {
     }
 
     expect(sayaHello("Irwan")).toBe("Hello Irwan");
-    expect(sayaHello("Irwan Siregar")).toBe("Hello Irwan Siregar");
+    expect(sayaHello("Irwan", "Siregar")).toBe("Hello Irwan Siregar");
+  });
+
+  it("should support function overloading", () => {
+    function callMe(value: number): number;
+    function callMe(value: string): string;
+    function callMe(value: any): any {
+      if (typeof value === "string") {
+        return value.toUpperCase();
+      } else if (typeof value === "number") {
+        return value * 10;
+      } else {
+        return value;
+      }
+    }
+
+    expect(callMe(10)).toBe(100);
+    expect(callMe("Irwan")).toBe("IRWAN");
   });
 });
