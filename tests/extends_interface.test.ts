@@ -19,4 +19,20 @@ describe("Extends & Function Interface", () => {
 
     console.log(manager);
   });
+
+  it("should support function interface", () => {
+    interface Person {
+      name: string;
+      sayHello(name: string): string;
+    }
+
+    const person: Person = {
+      name: "Eko",
+      sayHello: function (name: string): string {
+        return `Hello ${name}, my name is ${this.name}`;
+      },
+    };
+
+    console.log(person.sayHello("Budi"));
+  });
 });
