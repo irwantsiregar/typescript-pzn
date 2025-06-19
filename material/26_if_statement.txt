@@ -1,0 +1,7 @@
+[ If Statement ]
+
+- Sama seperti di JavaScript, di TypeScript juga kita bisa melakukan if statement
+- If statement di TypeScript sama seperti If statement di JavaScript
+
+# Ternary Operator
+Ternary operator yang dilakukan di JavaScript juga bisa dilakukan di TypeScript

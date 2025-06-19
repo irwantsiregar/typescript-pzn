@@ -1,0 +1,3 @@
+[ Switch Statement ]
+
+- Switch statement di TypeScript juga sama seperti di JavaScript

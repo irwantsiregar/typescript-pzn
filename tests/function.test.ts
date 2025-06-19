@@ -65,4 +65,16 @@ describe("Function", () => {
     expect(callMe(10)).toBe(100);
     expect(callMe("Irwan")).toBe("IRWAN");
   });
+
+  it("should support function as parameter", () => {
+    function sayaHello(name: string, filter: (name: string) => string): string {
+      return `Hello ${filter(name)}`;
+    }
+
+    function toUpper(name: string): string {
+      return name.toUpperCase();
+    }
+
+    expect(sayaHello("Irwan", toUpper)).toBe("Hello IRWAN");
+  });
 });
