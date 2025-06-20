@@ -1,4 +1,4 @@
-describe("Properties", () => {
+describe("Properties in Class", () => {
   class Customer {
     readonly id: number;
     name: string = "Guest"; // Default value
