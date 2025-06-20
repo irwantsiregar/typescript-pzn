@@ -1,0 +1,5 @@
+[ Interface Inheritance ]
+
+- Di bahasa pemrograman seperti Java, kadang Interface digunakan sebagai kontrak
+- Di TypeScript, hal itu juga bisa dilakukan, kita bisa membuat class yang mengikuti kontrak sebuah Interface, caranya dengan menggunakan kata kunci implements
+- Karena sebenarnya ini bukanlah pewarisan, oleh karena itu untuk implements, kita bisa melakukan implements ke lebih dari satu Interface, dimana pada extends hal ini tidak bisa dilakukan

@@ -1,0 +1,5 @@
+[ Constructor ]
+
+- Constructor adalah method atau function yang dipanggil ketika pertama kali object dibuat dari class
+- Constructor sama seperti Function biasanya, bisa memiliki parameter, yang membedakan adalah pada constructor, kita tidak perlu mengembalikan value
+
