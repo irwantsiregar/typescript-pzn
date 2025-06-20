@@ -1,4 +1,4 @@
-describe("Class", () => {
+describe("Inheritance on Class", () => {
   // parent class
   class Employee {
     name: string;
