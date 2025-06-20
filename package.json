@@ -3,10 +3,23 @@
   "version": "1.0.0",
   "description": "learn-oop-typescript",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-typescript": "^7.27.1",
+    "@jest/globals": "^30.0.2",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.0.2",
+    "jest": "^30.0.2",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
   },
   "repository": {
     "type": "git",
@@ -17,5 +30,6 @@
   "bugs": {
     "url": "https://github.com/irwantsiregar/typescript-pzn/issues"
   },
-  "homepage": "https://github.com/irwantsiregar/typescript-pzn#readme"
+  "homepage": "https://github.com/irwantsiregar/typescript-pzn#readme",
+  "type": "module"
 }
