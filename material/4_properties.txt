@@ -6,6 +6,7 @@
 - Sama seperti ketika membuat attribute di Type atau Interface, kita juga bisa menjadikan properties sebagai optional, mandatory atau readonly
 - Properties yang mandatory, wajib ditambahkan nilainya di Constructor
 
+# Properties Default Value
 - Properties juga bisa memiliki default value, kita bisa tambahkan menggunakan operator = (sama dengan) pada properties yang ingin kita tambahkan default value nya
 
 

@@ -1,7 +1,7 @@
 describe("Properties", () => {
   class Customer {
     readonly id: number;
-    name: string;
+    name: string = "Guest"; // Default value
     age?: number;
 
     constructor(id: number, name: string) {
